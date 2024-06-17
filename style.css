@@ -5,6 +5,10 @@ body{
     font-size: 13px;
     background-color: #23282E;
     color: #eee;
+    -webkit-user-select: none; /* Chrome, Safari, and newer Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version */
 }
 a{
     text-decoration: none;
@@ -44,10 +48,21 @@ header nav a{
 #intro .hero{
     text-align: right;
     height: 100%;
+    text-align: right;
+    height: 100%;
+    position: relative;
+    -webkit-user-select: none; /* Chrome, Safari, and newer Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version */
 }
 #intro .hero img{
     height: 100%;
     filter: saturate(0.5);
+    -webkit-user-select: none; /* Chrome, Safari, and newer Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version */
 }
 #intro .content{
     position: absolute;
@@ -56,6 +71,10 @@ header nav a{
     left: 50px;
     width: 500px;
     max-width: 80%;
+    -webkit-user-select: none; /* Chrome, Safari, and newer Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version */
 }
 #intro .content .name,
 #intro .content .job{
