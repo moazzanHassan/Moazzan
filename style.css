@@ -225,6 +225,9 @@ header nav a{
     background-color: #cfbaba;
     color:#444B57
 }
+#projects a{
+text-decoration:none;
+}
 #project .list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
